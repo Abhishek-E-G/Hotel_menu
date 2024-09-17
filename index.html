@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Carousel 01</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.3.4/tailwind.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <style>
+           .menu-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .menu-item {
+      max-width: 300px;
+      /* margin: 0 auto; */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .menu-content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .menu-image {
+      width: 100%;
+      height: auto;
+      max-height: 250px;
+      object-fit: cover;
+    }
+
+    @media (min-width: 640px) {
+      .menu-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  
+  </style>
+  <body>
+		<div class="home-slider owl-carousel js-fullheight">
+      <div class="slider-item js-fullheight" style="background-image:url(images/biriyani.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<!-- <h2>Best Place to Eat</h2> -->
+		            <h1 class="mb-3">BIRIYANI</h1>
+                <h3>SCROLL DOWN FOR MENU</h3>
+
+	            </div>
+	          </div>
+	        </div>
+        </div>
+      </div>
+
+      <div class="slider-item js-fullheight" style="background-image:url(images/dosa.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<!-- <h2>Best Place to Eat</h2> -->
+		            <h1 class="mb-3">DOSA</h1>
+                <h3>SCROLL DOWN FOR MENU</h3>
+	            </div>
+	          </div>
+	        </div>
+        </div>
+      </div>
+
+      <div class="slider-item js-fullheight" style="background-image:url(images/kabab.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<!-- <h2>Best Place to Eat</h2> -->
+		            <h1 class="mb-3">KABAB</h1>
+                <h3>SCROLL DOWN FOR MENU</h3>
+
+	            </div>
+	          </div>
+	        </div>
+        </div>
+      </div>
+    </div>
+    <!-- category section -->
+    <div class="background"></div>
+    <div class="background-texture"></div>
+
+    <section class="carousel" id="cat1">
+      <h2 class="categories__title">My List</h2>
+      <div class="carousel__container" id="cat2">
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="people"
+          />
+          <div class="carousel-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/1785001/pexels-photo-1785001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="people"
+          />
+          <div class="carousel-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="people"
+          />
+          <div class="carousel-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/1071882/pexels-photo-1071882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="people"
+          />
+          <div class="carousel-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="people"
+          />
+          <div class="carousel-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/6945/sunset-summer-golden-hour-paul-filitchkin.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="people"
+          />
+          <div class="carousel-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/1964471/pexels-photo-1964471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            alt="people"
+          />
+          <div class="carousel-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARDS SECTION -->
+    <div class="flex items-center w-screen min-h-screen">
+      <div class="container mx-auto px-4">
+        <div class="w-full mb-4 mt-4">
+          <h1 class="text-3xl lg:text-4xl text-gray-700 font-extrabold">
+            OUR MENUS
+          </h1>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="menu-item bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+            <figure class="mb-2">
+              <img src="images/biriyani.jpg" alt="Chicken Biriyani" class="menu-image" />
+            </figure>
+            <div class="menu-content rounded-lg p-4 bg-purple-700 flex flex-col h-full">
+              <div>
+                <h5 class="text-white text-2xl font-bold leading-none">
+                  CHICKEN BIRIYANI
+                </h5>
+              </div>
+              <div class="flex items-center mt-auto">
+                <div class="text-lg text-white font-light">
+                  ₹150
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+            <figure class="mb-2">
+              <img src="images/kabab.jpg" alt="Kabab" class="menu-image" />
+            </figure>
+            <div class="menu-content rounded-lg p-4 bg-purple-600 flex flex-col h-full">
+              <div>
+                <h5 class="text-white text-2xl font-bold leading-none">
+                  KABAB
+                </h5>
+              </div>
+              <div class="flex items-center mt-auto">
+                <div class="text-lg text-white font-light">
+                  ₹200
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+            <figure class="mb-2">
+              <img src="images/dosa.jpg" alt="Dosa" class="menu-image" />
+            </figure>
+            <div class="menu-content rounded-lg p-4 bg-purple-600 flex flex-col h-full">
+              <div>
+                <h5 class="text-white text-2xl font-bold leading-none">
+                  DOSA
+                </h5>
+              </div>
+              <div class="flex items-center mt-auto">
+                <div class="text-lg text-white font-light">
+                  ₹40
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+            <figure class="mb-2">
+              <img src="images/biriyani.jpg" alt="Biriyani" class="menu-image" />
+            </figure>
+            <div class="menu-content rounded-lg p-4 bg-purple-600 flex flex-col h-full">
+              <div>
+                <h5 class="text-white text-2xl font-bold leading-none">
+                  BIRIYANI
+                </h5>
+              </div>
+              <div class="flex items-center mt-auto">
+                <div class="text-lg text-white font-light">
+                  ₹150
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="box1">
+      <span class="box-text">GAZ WEB</span>    </div> -->
+    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
